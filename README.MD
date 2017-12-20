@@ -3,14 +3,6 @@
 [![npm version](https://badge.fury.io/js/pull-refresh.svg)](https://badge.fury.io/js/pull-refresh) [![npm downloads](https://img.shields.io/npm/dm/pull-refresh.svg?style=flat-square)](https://www.npmjs.com/package/pull-refresh)
 
 
-## 介绍
-
-用更优雅的方式实现移动端的下拉刷新。
-
-1. 把下拉刷新的提示信息通过 transform 的方式移动到容器外
-2. 当 `document.body.scrollTop == 0`的时候依然在`touchemove`就会开始监听下拉动作。
-3. 下拉的时候把容器(body或自定义的dom节点)使用 `transform` 下移，自然露出 下拉提示信息
-4. 下拉使用优化过的`easeOut`更逼近native下拉体验
 
 
 ## 如何使用
@@ -39,21 +31,6 @@ render(){
 ````
 
 ## props参数说明
-
-
-pullRootId:"", //element id default document.body
-    pullMaxDistance:90, //下拉距离
-    renderUI(status, progress){} //
-    onRefresh(resolve, reject){
-      setTimeout(()=>{
-        resolve()
-      }, 3000)
-    }
-
-const STATUS_NONE = "none";
-const STATUS_PULL = "pull";
-const STATUS_READY = "readyRefresh";
-const STATUS_REFRESH = "refresh";
 
 
 
@@ -98,6 +75,16 @@ const STATUS_REFRESH = "refresh";
 
 ````
 
+
+
+## 原理
+
+用更优雅的方式实现移动端的下拉刷新。
+
+1. 把下拉刷新的提示信息通过 transform 的方式移动到容器外
+2. 当 `document.body.scrollTop == 0`的时候依然在`touchemove`就会开始监听下拉动作。
+3. 下拉的时候把容器(body或自定义的dom节点)使用 `transform` 下移，自然露出 下拉提示信息
+4. 下拉使用优化过的`easeOut`更逼近native下拉体验
 
 
 
