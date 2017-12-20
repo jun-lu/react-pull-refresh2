@@ -28,6 +28,17 @@ render(){
 
 ````
 
+
+## Example Source Code
+
+* [all example](./example/)
+  
+  * [无需任何配置，直接使用](./example/src/base.js)
+  * [监听刷新动作触发](./example/src/demo2.js)
+  * [自定义刷新UI](./example/src/demo3.js)
+  * [有fixed头](./example/src/demo4.js)
+
+
 ## props参数说明
 
 
@@ -40,50 +51,7 @@ render(){
 | onRefresh(resolve, reject) | 否        |   内置3秒刷新完成  | resolve, reject 为promise对象方法，执行resolve后刷新完成 |
 
 
-## Example Source Code
 
-* [all example](./example/)
-  
-  * [无需任何配置，直接使用](./example/src/base.js)
-  * [监听刷新动作触发](./example/src/demo2.js)
-  * [自定义刷新UI](./example/src/demo3.js)
-  * [有fixed头](./example/src/demo4.js)
-
-
-
-* 备注1
-
- [自定义刷新UI](./example/src/demo3.js)
-
-````
-
-  <PullRefresh 
-    renderUI={(status, progress)=>{
-      //progress 0 ~ 1 的小数，方便你定制更细节的ui, 不断下拉会大于1
-      let text = "";
-
-      if(status == STATUS_NONE){//默认 progress == 0
-        text = "下拉刷新";
-      }
-
-      if(status == STATUS_PULL){//默认 0.5 > progress > 0
-        text = "下拉刷新";
-      }
-
-      if(status == STATUS_READY){//默认 1 > progress > 0.5
-        text = "松开刷新";
-      }
-
-      if(status == STATUS_REFRESH){// progress > 0.5的时候touchend
-        text = "正在刷新";
-      }
-
-      //请注意这里的div，请提前设置移动到容器上方
-      return <div style={{transfrom:"translateY(-90px)"}} ><span>{text}</span></div>
-    }}
-  />
-
-````
 
 
 
