@@ -60,8 +60,8 @@ render(){
 用更优雅的方式实现移动端的下拉刷新。
 
 1. 把下拉刷新的提示信息通过 transform 的方式移动到容器外
-2. 当 `document.body.scrollTop == 0`的时候依然在`touchemove`就会开始监听下拉动作。
-3. 下拉的时候把容器(body或自定义的dom节点)使用 `transform` 下移，自然露出 下拉提示信息
-4. 下拉使用优化过的`easeOut`更逼近native下拉体验
+2. 当 `document.body.scrollTop == 0`的时候开始监听 `touchmove` 触发下拉提示信息展示。
+3. 下拉的时候把容器(body或自定义的dom节点)使用 `transform` 下移，自然露出下拉提示信息
+4. 下拉动画使用优化过的`easeOut`更逼近native下拉体验
 
 
