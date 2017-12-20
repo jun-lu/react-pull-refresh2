@@ -5,7 +5,7 @@
 
 
 
-## 如何使用
+## 使用
 
 
 ````
@@ -13,8 +13,6 @@
 npm install pull-refresh -save
 
 ````
-
-只需要一行代码，即可安装完成
 
 ````
 
@@ -40,6 +38,18 @@ render(){
 | pullMaxDistance| 否        |  90  | 最大下拉的距离，也就是默认刷新提示框的高度（为了更好下拉体验，实际下拉会超过这个高度） |
 | renderUI(status, progress) | 否        |   内置UI  | 参考备注1 |
 | onRefresh(resolve, reject) | 否        |   内置3秒刷新完成  | resolve, reject 为promise对象方法，执行resolve后刷新完成 |
+
+
+## Example Source Code
+
+* [all example](./example/)
+  
+  * [无需任何配置，直接使用](./example/src/base.js)
+  * [监听刷新动作触发](./example/src/demo2.js)
+  * [自定义刷新UI](./example/src/demo3.js)
+  * [有fixed头](./example/src/demo4.js)
+
+
 
 * 备注1
 
@@ -86,17 +96,4 @@ render(){
 3. 下拉的时候把容器(body或自定义的dom节点)使用 `transform` 下移，自然露出 下拉提示信息
 4. 下拉使用优化过的`easeOut`更逼近native下拉体验
 
-
-
-## Example
-
-
-## Example Source Code
-
-* [all example](./example/)
-  
-  * [无需任何配置，直接使用](./example/src/base.js)
-  * [监听刷新动作触发](./example/src/demo2.js)
-  * [自定义刷新UI](./example/src/demo3.js)
-  * [有fixed头](./example/src/demo4.js)
 
