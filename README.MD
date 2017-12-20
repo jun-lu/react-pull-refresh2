@@ -30,8 +30,8 @@ render(){
 
 ## Video demo
 
-* [pull-refresh-base.mov 624kb](./example/video/pull-refresh-base.mov) or [优酷](http://v.youku.com/v_show/id_XMzI0ODM4Njc1Ng==.html)
-* [pull-refresh-header.mov 537kb](./example/video/pull-refresh-header.mov) or [优酷](http://v.youku.com/v_show/id_XMzI0ODM4NzEyNA==.html)
+* [youku view](http://v.youku.com/v_show/id_XMzI0ODM4Njc1Ng==.html) or [download pull-refresh-base.mov 624kb](./example/video/pull-refresh-base.mov) 
+* [youku view](http://v.youku.com/v_show/id_XMzI0ODM4NzEyNA==.html) or [download pull-refresh-header.mov 537kb](./example/video/pull-refresh-header.mov)
 
 ## Example Source Code
 
