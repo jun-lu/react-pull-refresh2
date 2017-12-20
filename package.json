@@ -1,7 +1,7 @@
 {
-  "name": "white-bull",
-  "version": "1.0.2",
-  "description": "React最佳实践",
+  "name": "pull-refresh",
+  "version": "0.0.1",
+  "description": "pull refresh react pull refresh 下拉刷新",
   "main": "./dist/index.js",
   "scripts": {
     "dist": "babel src/ --modules umd --out-dir dist && cp -r ./dist/ ./example/pull-refresh/ ",
@@ -27,9 +27,9 @@
     "fsevents":"*"
   },
   "bugs": {
-    "url": "https://github.com/jun-lu/white-bull/issues"
+    "url": "https://github.com/jun-lu/pull-refresh/issues"
   },
-  "homepage": "https://github.com/jun-lu/white-bull",
+  "homepage": "https://github.com/jun-lu/pull-refresh",
   "author": "jun.lu",
   "license": "MIT"
 }
