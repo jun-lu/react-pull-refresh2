@@ -5,7 +5,7 @@
 
 
 
-## 使用
+## use
 
 
 ````
@@ -28,10 +28,12 @@ render(){
 
 ````
 
-## Video demo
+## GIF
 
-* [youku view](http://v.youku.com/v_show/id_XMzI0ODM4Njc1Ng==.html) or [download pull-refresh-base.mov 624kb](./example/video/pull-refresh-base.mov) 
-* [youku view](http://v.youku.com/v_show/id_XMzI0ODM4NzEyNA==.html) or [download pull-refresh-header.mov 537kb](./example/video/pull-refresh-header.mov)
+<img src="https://img.alicdn.com/tfs/TB1swR4jxrI8KJjy0FpXXb5hVXa-600-1045.gif" width="300" />
+<img src="https://img.alicdn.com/tfs/TB1L_yzjr_I8KJjy1XaXXbsxpXa-600-1021.gif" width="300" />
+
+
 
 ## Example Source Code
 
