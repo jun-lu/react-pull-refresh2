@@ -51,7 +51,7 @@ render(){
   * [有fixed头](./example/src/demo4.js)
 
 
-## props参数说明
+## props
 
 
 
