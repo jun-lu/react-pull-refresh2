@@ -29,7 +29,7 @@ var STATUS_REFRESH = "refresh";
 	props = {
 		
 		pullRootId:"", //element id default document.body
-		pullMaxDistance:70, //下拉距离
+		pullMaxDistance:90, //下拉距离
 		renderUI(status, progress){} //
 		onRefresh(resolve, reject){
 			setTimeout(()=>{

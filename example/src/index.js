@@ -10,6 +10,10 @@ class App extends React.Component{
     return (
       <div>
         <PullRefresh />
+        <a href="./base.html" className="box">无需任何配置，直接使用</a>
+		    <a href="./demo2.html" className="box">可监听刷新动作触发</a>
+		    <a href="./demo3.html" className="box">自定义刷新UI</a>
+		    <a href="./demo4.html" className="box">有fixed头</a>
       </div>
     )
   }
