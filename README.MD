@@ -1,6 +1,6 @@
 ## pull-refresh
 
-[![npm version](https://badge.fury.io/js/pull-refresh.svg)](https://badge.fury.io/js/pull-refresh) [![npm downloads](https://img.shields.io/npm/dm/pull-refresh.svg?style=flat-square)](https://www.npmjs.com/package/pull-refresh)
+[![npm version](https://badge.fury.io/js/react-pull-refresh.svg)](https://badge.fury.io/js/react-pull-refresh) [![npm downloads](https://img.shields.io/npm/dm/react-pull-refresh.svg?style=flat-square)](https://www.npmjs.com/package/react-pull-refresh)
 
 
 
