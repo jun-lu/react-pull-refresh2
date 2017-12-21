@@ -23,8 +23,9 @@ render(){
   return <div>
     <PullRefresh 
     	onRefresh={(resolve)=>{
-    		//ajax ...
-    		resolve()
+    		setTimeout(()=>{
+    			resolve()
+    		}, 2000)
     	}}
     />
   </div>
