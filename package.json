@@ -27,9 +27,9 @@
     "fsevents":"*"
   },
   "bugs": {
-    "url": "https://github.com/jun-lu/pull-refresh/issues"
+    "url": "https://github.com/jun-lu/react-pull-refresh2/issues"
   },
-  "homepage": "https://github.com/jun-lu/pull-refresh",
+  "homepage": "https://github.com/jun-lu/react-pull-refresh2",
   "author": "jun.lu",
   "license": "MIT"
 }
