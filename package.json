@@ -1,5 +1,5 @@
 {
-  "name": "pull-refresh2",
+  "name": "react-pull-refresh",
   "version": "0.0.2",
   "description": "pull refresh react pull refresh 下拉刷新",
   "main": "./dist/index.js",
