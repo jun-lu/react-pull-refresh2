@@ -10,13 +10,13 @@
 
 ````javascript
   
-npm install pull-refresh -save
+npm install react-pull-refresh2 -save
 
 ````
 
 ````javascript
 
-import PullRefresh from 'pull-refresh'
+import PullRefresh from 'react-pull-refresh2'
 
 render(){
 
