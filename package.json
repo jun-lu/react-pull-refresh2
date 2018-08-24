@@ -1,6 +1,6 @@
 {
   "name": "react-pull-refresh2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "pull refresh react pull refresh 下拉刷新",
   "main": "./dist/index.js",
   "scripts": {
